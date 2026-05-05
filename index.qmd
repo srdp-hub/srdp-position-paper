@@ -1,0 +1,59 @@
+---
+title: "Introducting SRDP: an open, sovereign and flexible data platform"
+authors:
+  - name: Daniel Kapitan
+    email: daniel@kapitan.net
+  - name: Pieter Wijkstra
+    email: pieter@factful.nl
+  - name: Tim Grevelink
+    email: tim@timformatie.nl
+  - name: Andrea Giardini
+    email: contact@andreagiardini.com
+  - name: Yannick Vinkesteijn
+    email: yannick@vinkesteijn.io
+bibliography: references.bib
+---
+
+> ***At the beginning of the twenty-first century, the internet gave birth to the open movement.*** _Numerous organisations and initiatives have been launched with a belief in openness and free knowledge. Their proponents placed their bets on the combined power of networked information services and new governance models for the production and sharing of content and data. We – as members of this broad movement – were among those who believed it possible to leverage this combination of power and opportunity to build a more democratic society, unleashing the power of the internet to create universal access to knowledge and culture. For us, such openness meant not only freedom, but also presented a path to justice and equality.[^1]_
+
+[^1]: Open Future Foundation (2021), [the Paradox of Open](https://paradox.openfuture.eu/).
+
+### The open revolution that did not happen.
+
+The open revolution that we[^2] imagined did not happen. At least not on the scale that we and many other proponents of free culture expected. Wikipedia and the many open source software (OSS) projects that power the infrastructure of the internet has shown that the success of the open movement and demonstrated that these ideas and ideals can create significant value for the common good. Yet, over the last decade we have witnessed a wholesale transformation of the networked information ecosystem. The internet moved away from the ideals and the open design of the early internet and turned into an environment that is dominated by a small number of platforms.
+
+[^2]: We, as in the authors of this position paper, are a bunch of professional data engineers, data scientist, business analyst and other data-related professionals who consider themselves part of the open movement.
+
+The trend away from openess to closed, proprietary systems is also at hand in the area of data infrastructure and engineering. What started of with the 'Big Data' boom at the turn of the millenium, has by evolved into one of the largest growth areas of digital infrastructure, estimated at a market worth over 70 billion US dollars by 2022.[^3] The push for commercial return-on-investment has led to a proliferation of technologies and products which makes it hard for companies and organisation to make well-informed decisions as to which data platform is best suitable _for them_. Furthermore, what is a fair price that companies need to pay for their data platform? From our own experience, we see organizations spending up to 2% of their revenue on data-related infrastructure, which we believe is an unneccessary burden particularly for public and non-profit organisations such as healthcare providers and government organizations.
+
+![The MAD Landscape illustrates the Gold Rush machine learning, AI and data infrastructure. Source: [https://www.mattturck.com/mad2025](https://www.mattturck.com/mad2025).](mad2025.png)
+
+[^3]: Li, Wang & Sullivan (2022), [Data50: The World’s Top 50 Data Startups](https://a16z.com/data-50/).
+
+## Openness and (platform) power.
+
+As advocates of openness, we have largely failed to take into account the negative externalities related to the permissive sharing of all kinds of information, including the data itself and the OSS that power data platforms. Today, this situation contributes to the power imbalances that we observe. Companies like OpenAI and Anthropic could not have created their foundational large language models (LLMs) without Wikipedia. Most, if not all, commercial data infrastructure providers use the same core of OSS libraries in their commercial platform products. But still Wikipedia is struggling to make ends meet and key OSS projects are severly underfunded leading to, amongst other, serious cybersecurity vulnerabilities.
+
+## Reclaiming openess, sovereignity and flexibility for our data.
+
+> _"Code, not law"_ - Lawrence Lessig
+
+
+::: {.list-table}
+- - Theme
+  - Description
+  - Our position
+
+- - **Understanding the new open**
+  - Open should not just mean releasing resources into a digital void; the term should stand for managing the use of resources in a way that maximizes public benefit while avoiding harm, a balance between openness of resources and preservation of privacy (and other fundamental rights).
+  - We propose a co-operative approach to OSS systems integration, including quality control, certification and referal mechanisms based on merit and trust.
+
+- - **Creating a sum of the open movement parts**
+  - We are just one among many organisations that identify with the vision of digital commons, openness, and access to knowledge. Resilience and sustainability are crucial, and there’s a sense that the broad digital movement needs to function cooperatively.
+  - We don't just focus on openness of data platforms, but explicitly relate it to digital sovereingty and the principles of data solidarity.
+
+- - **Building a Shared Digital Europe**
+  - Digital policies cannot be limited to controlling the dominant platforms and fighting unfair power distribution. A European vision for the digital space needs to include a commitment to creating public alternatives.
+  - We aim to contribute to the implementation of fair data sharing across Europe by distributing power, both at the technical level (distributed architectures) and way-of-working (Holacracy)
+:::
+

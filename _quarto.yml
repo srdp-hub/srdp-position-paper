@@ -1,0 +1,22 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    comments:
+      hypothesis: true
+    grid:
+      margin-width: 350px
+  typst: default
+
+reference-location: margin
+citation-location: margin
+
+execute:
+  freeze: true
+
+
+
