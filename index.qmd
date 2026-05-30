@@ -20,7 +20,7 @@ bibliography: references.bib
 
 ### The open revolution that did not happen.
 
-The open revolution that we[^2] imagined did not happen. At least not on the scale that we and many other proponents of free culture expected. Wikipedia and the many open source software (OSS) projects that power the infrastructure of the internet has shown that the success of the open movement and demonstrated that these ideas and ideals can create significant value for the common good. Yet, over the last decade we have witnessed a wholesale transformation of the networked information ecosystem. The internet moved away from the ideals and the open design of the early internet and turned into an environment that is dominated by a small number of platforms.
+The open revolution that we[^2] imagined did not happen. At least not on the scale that we and many other proponents of free culture expected. Wikipedia and the many open source software (OSS) projects that power the infrastructure of the internet have shown that the success of the open movement and demonstrated that these ideas and ideals can create significant value for the common good. Yet, over the last decade we have witnessed a wholesale transformation of the networked information ecosystem. The internet moved away from the ideals and the open design of the early internet and turned into an environment that is dominated by a small number of platforms.
 
 [^2]: We, as in the authors of this position paper, are a bunch of professional data engineers, data scientist, business analyst and other data-related professionals who consider themselves part of the open movement.
 
@@ -28,32 +28,56 @@ The trend away from openess to closed, proprietary systems is also at hand in th
 
 ![The MAD Landscape illustrates the Gold Rush machine learning, AI and data infrastructure. Source: [https://www.mattturck.com/mad2025](https://www.mattturck.com/mad2025).](mad2025.png)
 
+As advocates of openness, we have largely failed to take into account the negative externalities related to the permissive sharing of all kinds of information, including the data itself and the OSS that power data platforms. Today, this situation contributes to the power imbalances that we observe. Companies like OpenAI and Anthropic could not have created their foundational large language models (LLMs) without Wikipedia, yet Wikipedia is struggling to make ends meet. Key OSS projects are severly underfunded leading to, amongst other, serious cybersecurity vulnerabilities. Most, if not all, commercial data infrastructure providers use the same core of OSS libraries in their commercial platform products, yet we see increasing lock-in and vendor dependency. Is there a viable strategy to counter this trend?
+
 [^3]: Li, Wang & Sullivan (2022), [Data50: The World’s Top 50 Data Startups](https://a16z.com/data-50/).
 
-## Openness and (platform) power.
+## Open source as a strategy for reclaiming sovereignty.
 
-As advocates of openness, we have largely failed to take into account the negative externalities related to the permissive sharing of all kinds of information, including the data itself and the OSS that power data platforms. Today, this situation contributes to the power imbalances that we observe. Companies like OpenAI and Anthropic could not have created their foundational large language models (LLMs) without Wikipedia. Most, if not all, commercial data infrastructure providers use the same core of OSS libraries in their commercial platform products. But still Wikipedia is struggling to make ends meet and key OSS projects are severly underfunded leading to, amongst other, serious cybersecurity vulnerabilities.
+We believe that open source provides a viable strategy to rebalance the power over digital platform and reclaim sovereingty.[^4] Over the past decades, we have seen public and private actors wield this tool to neutralize monopolistic control, commoditize critical digital infrastructure, and realign industries around open, collectively governed standards. Looking at how Google used Android to prevent Apple's dominance, Meta's formation of the Open Compute Project and Google's strategy with Kubernetes, we see that open source has repeatedly served as a lever to remove supplier lock-in and redistribute power. Countries like China have gone further, adopting open ecosystems as part of national strategy, using open standards and shared platforms to strengthen technological autonomy and resilience. If we are to reclaim sovereignty and flexibility in digital infrastructure, our approach to openness must mirror these strategic uses: not just releasing resources, but building and governing them in ways that limit dependence on private gatekeepers and maximize collective benefit.
 
-## Reclaiming openess, sovereignity and flexibility for our data.
+[^4]: Bill Gurley (2026), [From Open Source Software to Open Source Strategy](https://p3institute.substack.com/p/from-open-source-software-to-open).
 
-> _"Code, not law"_ - Lawrence Lessig
 
+\[The following needs to be written in a narrative\]
+
+We have started SRDP to operationalize this strategy, where we specifically address some of the issues related to working with open source in the context of data platforms these o reclaiming openess, sovereignity and flexibility for our data and data platforms
 
 ::: {.list-table}
 - - Theme
-  - Description
-  - Our position
+  - Challenge
+  - Our approach
 
-- - **Understanding the new open**
-  - Open should not just mean releasing resources into a digital void; the term should stand for managing the use of resources in a way that maximizes public benefit while avoiding harm, a balance between openness of resources and preservation of privacy (and other fundamental rights).
-  - We propose a co-operative approach to OSS systems integration, including quality control, certification and referal mechanisms based on merit and trust.
+- - **Lack of system integration**
+  - While there are many mature and robust open source components for data platforms, we lack a trusted and collaborative approach to systems integration of these components. Use-of-use is one of the key USPs of commercial vendors.
+  - Taking inspiration from [Instant OpenHIE](https://jembi.gitbook.io/instant-v2), an initiative that aims to allow Health Information Exchange components to be packaged up, deployed, operated and scaled via a simple CLI, we envision SRDP as tool do the same for dataplatforms based on the lakehouse architecture.
 
-- - **Creating a sum of the open movement parts**
-  - We are just one among many organisations that identify with the vision of digital commons, openness, and access to knowledge. Resilience and sustainability are crucial, and there’s a sense that the broad digital movement needs to function cooperatively.
-  - We don't just focus on openness of data platforms, but explicitly relate it to digital sovereingty and the principles of data solidarity.
+- - **Lack of trust in the open source ecosystem**
+  - _No one got fired your buying <insert name of large technology company>._ And indeed we acknowledge that trust is as important as the technology itself. Many open source based service providers do not have the scale and scope to provide all the things required for a robust, well-governed data platform
+  - We envisage SRDP Hub as a cooperative of like-minded professionals and suppliers, such that as a group we can provide the full range of services required to build and operate a data platform, while at the same time providing a trusted network for our customers. We aim to launch a certification programme, through a peer-review mechanism where partners in the ecosystem evaluate each other's solution. In future, this could be extended in, for example, having a managed PyPI mirror (rather than every organization setting up their own secure mirror). The cooperative is governed by a Holacracy, which is a decentralized organizational structure that distributes authority and decision-making across self-organizing teams. This way of working allows us to be more agile and responsive to the needs of our customers, while also fostering a culture of collaboration and shared ownership.
 
-- - **Building a Shared Digital Europe**
-  - Digital policies cannot be limited to controlling the dominant platforms and fighting unfair power distribution. A European vision for the digital space needs to include a commitment to creating public alternatives.
-  - We aim to contribute to the implementation of fair data sharing across Europe by distributing power, both at the technical level (distributed architectures) and way-of-working (Holacracy)
 :::
 
+
+## Introducing SRPD and call to action
+
+SRDP is:
+
+- A cooperative (SRDP Hub), that has been founded to operationalize what we have explained above
+- A blueprint and specification (SRDP), which in intend to extend into a cerfication programme that supports different configurations of the blueprint into specific products/propositions.
+
+Our aim, ultimately, is to provide data engineering solutions and services at a superior price-performance ratio, that is open etc. At the time of writing, the SRDP blueprint is (in the process) of being deployed at:
+
+- (list current customers here, need to ask approval?)
+
+The founding partners of SRDP are (in alphabetical order):
+
+- [Factful](https://www.factful.nl/)
+- [\@kapitan](https://kapitan.net)
+- [KundoLabs](https://kundolabs.com/)
+- [timformatie](https://timformatie.nl/)
+
+## Call to action
+
+- Suppliers and professionals: join our cooperative
+- Customers: consider SRDP as you data platform
